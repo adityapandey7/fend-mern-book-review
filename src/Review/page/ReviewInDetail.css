@@ -1,0 +1,40 @@
+.review-in-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+.review-in-detail_content {
+  width: 650px;
+}
+.review-in-detail_image {
+  text-align: center;
+  height: 250px;
+  width: 250px;
+}
+
+.review-in-detail_image img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.review-in-detail_info {
+  margin-top: 15px;
+}
+.review-in-detail_info h3 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.review-in-detail_info-extra {
+  display: flex;
+  margin: 5px 25px;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.review-in-detail_info-extra p {
+  font-weight: bold;
+}
+.review-in-detail_admin {
+  text-align: center;
+}

@@ -1,0 +1,9 @@
+.authentication {
+  width: 50%;
+  margin: 7rem auto;
+  text-align: center;
+}
+.authentication form {
+  width: 75%;
+  margin: 0 auto;
+}

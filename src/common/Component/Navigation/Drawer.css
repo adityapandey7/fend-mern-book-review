@@ -1,0 +1,15 @@
+.drawer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  height: 100vh;
+  width: 70%;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  transform: translate(-100%, 0);
+  transition: all 0.5s;
+}
+.show-drawer {
+  transform: translate(0, 0);
+}

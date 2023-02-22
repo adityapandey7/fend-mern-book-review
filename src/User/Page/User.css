@@ -1,0 +1,52 @@
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  width: 250px;
+}
+
+.user a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.user-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.user-content__content {
+  padding: 0;
+}
+
+.user-content_image {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1rem;
+}
+.user-content_image img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+.user-content_info h5 {
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem 0;
+  font-weight: normal;
+  color: #ffd900;
+}
+
+.user-content:hover h5,
+.user-content:active h5,
+.user-content:hover p,
+.user-content:active p {
+  color: #292929;
+}
+
+.user-content_info p {
+  margin: 0;
+}

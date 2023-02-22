@@ -1,0 +1,48 @@
+.main-navigation_title {
+  color: white;
+}
+.main-navigation_title a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-navigation_des-nav {
+  display: none;
+}
+
+/* drawer */
+
+.main-navigation_drawer-nav {
+  height: 100%;
+}
+
+/* menu btn */
+
+.main-navigation_menu-btn {
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor: pointer;
+  margin-right: 2rem;
+}
+
+.main-navigation_menu-btn span {
+  display: block;
+  width: 3rem;
+  height: 2.5px;
+  background-color: white;
+}
+
+@media (min-width: 768px) {
+  .main-navigation_menu-btn {
+    display: none;
+  }
+
+  .main-navigation_des-nav {
+    display: block;
+  }
+}
